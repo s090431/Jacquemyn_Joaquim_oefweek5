@@ -4,6 +4,7 @@
         {
             "titel": "MARTIN GARRIX REVEALS RELEASE DATE OF HIS COLLAB WITH TROYE SIVAN, “THERE FOR YOU”",
             "id": 212,
+            "Auteurs": ["MATTHEW MEADOWMAY"],
             "datum": "MATTHEW MEADOWMAY x MAY 18, 2017",
             "categorieen": ["FEATURED","NEWS"],
             "samenvatting": "We know when to admit we were wrong (though it was just a guess). Rather than our initial hypothesis of May 19, the new collaboration between Martin Garrix and...",
@@ -14,6 +15,7 @@
         {
             "titel": "WATCH ENTIRE DEADMAU5 ‘LOTS OF SHOWS’ TOUR IN STUNNING HD AS WE AWAIT CUBE 2.1 LITE & CUBE UNHOOKED",
             "id": 210,
+            "Auteurs": ["KARLIE POWELL"],
             "datum": "KARLIE POWELL x MAY 18, 2017",
             "categorieen": ["NEWS"],
             "samenvatting": "Deadmau5's Lots of Shows in a Row tour was a stunning visual success, thanks to his groundbreaking Cube 2.1 that wowed crowds across the country! Now, the ma...",
@@ -24,6 +26,7 @@
         {
             "titel": "ULTRA MUSIC FESTIVAL IS COMING TO MEXICO",
             "id": 198,
+            "Auteurs": ["CHRISTIAN NACCARATOMAY"],
             "datum": "CHRISTIAN NACCARATOMAY x MAY 17, 2017",
             "categorieen": ["EVENTS","FEATURED"],
             "samenvatting": "Ultra Music Festival is one of the largest festival series in the world, showcasing some of the best talent in dance music across the globe. After announcing a ...",
@@ -34,6 +37,7 @@
         {
             "titel": "TOMORROWLAND 2017 LINEUP: OVER 1000 INCREDIBLE ARTISTS & 69 STAGE HOSTS",
             "id": 196,
+            "Auteurs": ["MATTHEW MEADOWMAY"],
             "datum": "MATTHEW MEADOWMAY x MAY 15, 2017",
             "categorieen": ["EVENTS","FEATURED", "LINEUP", "NEWS"],
             "samenvatting": "Tomorrowland has always done it the biggest... but with the two-weekend format returning this year, it difficult to imagine a more hard-working and probably str...",
@@ -44,6 +48,7 @@
         {
             "titel": "MP3 CHANGED OUR LIVES FOREVER, BUT IT’S TIME TO MOVE ON",
             "id": 194,
+            "Auteurs": ["KARLIE POWELL"],
             "datum": "KARLIE POWELL x MAY 14, 2017",
             "categorieen": ["NEWS", "TECH"],
             "samenvatting": "MP3 is dead. But, before that totally weirds you out, here's why... The revolutionary MP3 file format changed the game of music listening forever. Instead of...",

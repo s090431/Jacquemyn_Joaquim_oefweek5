@@ -75,7 +75,79 @@ nav a:focus{
   top: 50%;
   margin-top: -3px;
   left:100%;
-  width: 260px;
+  width: 257px;
+}
+
+.over{
+  font-weight: bold;
+  margin:0;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 5px;
+  padding: 0px 30px 0px 0px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.over:after{
+  background: black;
+  content:"";
+  display: block;
+  height: 6px;
+  position: absolute;
+  top: 50%;
+  margin-top: -3px;
+  left:100%;
+  width: 200px;
+}
+
+.imgover{
+  margin-top: 20px;
+}
+
+.contacttitle{
+  font-weight: bold;
+  margin:0;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 5px;
+  padding: 0px 30px 0px 0px;
+  line-height: 1.2;
+}
+
+.contacttitle:after{
+  background: black;
+  content:"";
+  display: block;
+  height: 6px;
+  position: absolute;
+  top: 50%;
+  margin-top: -3px;
+  left:100%;
+  width: 214px;
+}
+
+.auteurs{
+  font-weight: bold;
+  margin:0;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 5px;
+  padding: 0px 30px 0px 0px;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.auteurs:after{
+  background: black;
+  content:"";
+  display: block;
+  height: 6px;
+  position: absolute;
+  top: 50%;
+  margin-top: -3px;
+  left:100%;
+  width: 243px;
 }
 
 .logo{
@@ -147,4 +219,146 @@ section{
   font-size: 0.8em;
   padding: 5px;
   border-left: 5px solid black;
+}
+
+.navigatie{
+  border-bottom: 7px solid black;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 50px;
+
+}
+
+.navigatie a{
+  background: none;
+  color: black;
+  font-weight: bold;
+  font-size: 0.7em;
+  padding:10px;
+}
+
+.navigatie a:hover{
+  background: black;
+  color: white;
+  border-bottom: 7px solid white;
+  margin-bottom: -7px;
+}
+
+input::placeholder, textarea::placeholder {
+  color: black;
+  font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea:focus:placeholder {
+  color: white;
+}
+
+/* on hover placeholder */
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: lightgrey;
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: white;
+}
+
+
+#form {
+  position: relative;
+  width: 309px;
+  margin: 50px auto 100px auto;
+  background: white;
+}
+
+input {
+  font-size: 0.875em;
+  width: 275px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+
+  background: transparent;
+  outline: none;
+  color: black;
+
+  border: solid 5px black;
+  border-bottom: none;
+
+  transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: rgba(0, 0, 0, 0.9);
+  color: black;
+}
+
+textarea {
+  width: 275px;
+  max-width: 275px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  color: #726659;
+  font-size: 0.875em;
+  border: solid 5px black;
+  transition: all 0.3s ease-in-out;
+
+}
+
+textarea:hover {
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+#submit {
+  width: 315px;
+
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+
+  font-size: 0.875em;
+  color: black;
+
+  outline:none;
+  cursor: pointer;
+
+  border: solid 5px black;
+  border-top: none;
+}
+
+#submit:hover {
+  color: white;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.auteur{
+  background: rgb(230,230,230);
+  padding: 25px;
+  margin-bottom: 25px;
+  border-left: 5px solid lightgrey;
+}
+
+.auteur img{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.auteur img:hover{
+  opacity: 0.7;
+}
+
+.auteur h1{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+
+.auteur h2{
+  text-align: center;
 }

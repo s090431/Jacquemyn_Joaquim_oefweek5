@@ -11,6 +11,23 @@ app.set("view engine", "ejs");
 app.set('port', (process.env.PORT || 5000));
 app.use(express.static('public'))
 
+app.get("/navigatie", function(req, res) {
+  res.render("navigatie");
+});
+
+app.get("/about", function(req, res) {
+  res.render("about");
+});
+
+app.get("/contact", function(req, res) {
+  res.render("contact");
+});
+
+app.get("/autors", function(req, res) {
+  res.render("autors");
+});
+
+
 app.use(require("./routes/root_router"));
 app.use(require("./routes/nieuws_router"));
 app.use(require("./routes/categorieen_router"));
